@@ -7,7 +7,6 @@ navToggle.addEventListener('click', () => {
     navToggle.setAttribute('aria-expanded', isOpen);
 });
 
-// Tutup menu otomatis setelah memilih salah satu link (mobile)
 mainNav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
         mainNav.classList.remove('open');
@@ -15,5 +14,4 @@ mainNav.querySelectorAll('a').forEach((link) => {
     });
 });
 
-// Tahun otomatis di footer
 document.getElementById('year').textContent = new Date().getFullYear();
