@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafly Anthony Chaniago - Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <h1>Rafly Anthony Chaniago</h1>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="mainNav">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HOME / HERO -->
+        <section id="home" class="hero">
+            <img src="assets/rafly1.jpeg"
+                 alt="Rafly Anthony Chaniago"
+                 width="155"
+                 height="155"
+                 class="profile">
+            <div>
+                <h2 class="hero-title">Mahasiswa &amp; Calon Developer</h2>
+                <p>Mengerjakan tugas kuliah sambil belajar membangun website dari nol.</p>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Nama saya Rafly Anthony Chaniago. Saya merupakan mahasiswa
+        Universitas Sumatera Utara dari jurusan Ilmu Komputer.
+    </p>
+
+    <p>
+        Saya merupakan tamatan dari SMK Yapim Taruna Pandan dan saat ini sedang
+        mengembangkan kemampuan saya di bidang teknologi dan komputer.
+    </p>
+
+    <p>
+        Saya memiliki ketertarikan pada dunia game development, desain grafis,
+        serta penggunaan teknologi AI. Selain itu, saya juga sedang mempelajari
+        HTML, CSS, JavaScript, dan berbagai hal lainnya yang berhubungan dengan
+        pengembangan teknologi.
+    </p>
+
+    <p>
+        Bagi saya, belajar teknologi bukan hanya tentang memahami bagaimana
+        sesuatu bekerja, tetapi juga tentang bagaimana menciptakan sesuatu yang
+        bisa digunakan dan dinikmati oleh orang lain.
+    </p>
+
+    <p>
+        Saya masih terus belajar dan mencari bidang yang paling sesuai dengan
+        diri saya. Ke depannya, saya ingin mengembangkan kemampuan saya,
+        membuat berbagai karya, terutama dalam bidang game dan teknologi,
+        serta terus mencoba hal-hal baru.
+    </p>
+</section>
+
+        <!-- SKILLS -->
+<section id="skills">
+    <h2>Kemampuan</h2>
+
+    <p>Beberapa kemampuan yang sedang saya pelajari dan gunakan:</p>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <span class="skill-name">AI</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 80%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <span class="skill-name">Graphic Design</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <span class="skill-name">Game Development</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 60%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <span class="skill-name">HTML</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 65%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <span class="skill-name">CSS</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 55%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 35%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <span class="skill-name">Video Editing</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 30%;"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Proyek</h2>
+
+            <!-- EDIT: ganti judul, deskripsi, dan gambar tiap proyek sesuai karyamu -->
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets/image.png" alt="Tampilan Project 1" class="project-img">
+                    <h3>Project 1</h3>
+                    <p>Deskripsi singkat tentang project ini: apa yang dibuat, alat yang dipakai, dan apa yang
+                        dipelajari darinya.</p>
+                </article>
+
+                <article class="project-card project-card--empty">
+                    <div class="project-placeholder">+</div>
+                    <h3>Project berikutnya</h3>
+                    <p>Salin struktur kartu di atas untuk menambahkan proyekmu yang lain di sini.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>Message for me:</p>
+
+            <form>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- SOCIAL MEDIA -->
+        <section id="social-media">
+            <h2>Social Media</h2>
+
+            <a href="https://www.instagram.com/raflyanthonyzr/?hl=en" target="_blank" rel="noopener">
+                Instagram
+            </a>
+
+            <a href="https://web.facebook.com/profile.php?id=61575053116139" target="_blank" rel="noopener">
+                Facebook
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rafly Anthony Chaniago. Dibuat untuk tugas portofolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
